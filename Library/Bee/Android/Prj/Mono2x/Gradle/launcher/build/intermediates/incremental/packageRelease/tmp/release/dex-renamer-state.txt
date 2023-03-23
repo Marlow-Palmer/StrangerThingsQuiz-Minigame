@@ -1,0 +1,4 @@
+#Wed Mar 22 19:13:01 CDT 2023
+base.0=C\:\\Users\\madis\\OneDrive\\Desktop\\UnityMiniGame-MP\\UnityMiniGame-MP\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
