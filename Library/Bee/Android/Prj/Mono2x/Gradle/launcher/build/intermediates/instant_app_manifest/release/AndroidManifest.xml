@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.DefaultCompany.UnityMiniGameMP"
+    package="com.MadisonPalmer.UnityMiniGameMP"
     android:installLocation="preferExternal"
     android:targetSandboxVersion="2"
     android:versionCode="1"
@@ -41,7 +41,7 @@
             android:hardwareAccelerated="false"
             android:launchMode="singleTask"
             android:resizeableActivity="false"
-            android:screenOrientation="fullUser"
+            android:screenOrientation="landscape"
             android:theme="@style/UnityThemeSelector" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -72,9 +72,6 @@
         <meta-data
             android:name="notch.config"
             android:value="portrait|landscape" />
-        <meta-data
-            android:name="unity.auto-report-fully-drawn"
-            android:value="true" />
     </application>
 
 </manifest>

@@ -20,7 +20,6 @@ public class QuizManager : MonoBehaviour
     public int totalQuestions = 0;
     public int score;
 
-    //figure out how to get it to start from the startpanel instead of questionpanel
 
     private void Start()
     {
@@ -33,6 +32,14 @@ public class QuizManager : MonoBehaviour
     public void goButton()
     {
         Game();
+    }
+
+    public void exitButton()
+    {
+        //put the debug log so that i know the quit button is working
+        //because it wont just quit the game while running in unity
+        Debug.Log("Quit");
+        Application.Quit();
     }
 
     private void Game()

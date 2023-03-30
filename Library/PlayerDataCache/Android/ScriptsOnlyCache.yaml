@@ -5,6 +5,8 @@ ScriptsOnlyBuild:
     - QuizManager
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
+    Unity.Timeline.Editor.dll:
+    - TimelineProjectSettings
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -75,25 +77,25 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 4984}
+      Script: {instanceID: 1500}
     - Class: 114
-      Script: {instanceID: 5264}
+      Script: {instanceID: 1580}
     - Class: 114
-      Script: {instanceID: 5352}
+      Script: {instanceID: 1862}
     - Class: 114
-      Script: {instanceID: 5840}
+      Script: {instanceID: 1954}
     - Class: 114
-      Script: {instanceID: 6340}
+      Script: {instanceID: 2450}
     - Class: 114
-      Script: {instanceID: 6544}
+      Script: {instanceID: 2962}
     - Class: 114
-      Script: {instanceID: 6636}
+      Script: {instanceID: 3168}
     - Class: 114
-      Script: {instanceID: 6838}
+      Script: {instanceID: 3262}
     - Class: 114
-      Script: {instanceID: 7188}
+      Script: {instanceID: 3470}
     - Class: 114
-      Script: {instanceID: 7352}
+      Script: {instanceID: 3820}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -111,6 +113,12 @@ ScriptsOnlyBuild:
     - Class: 224
       Script: {instanceID: 0}
   scriptHashData:
+  - hash:
+      serializedVersion: 2
+      Hash: 69415240821be7986b27e72bf9609a30
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Button
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -527,12 +535,6 @@ ScriptsOnlyBuild:
     className: ActivationPlayableAsset
   - hash:
       serializedVersion: 2
-      Hash: 69415240821be7986b27e72bf9609a30
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: Button
-  - hash:
-      serializedVersion: 2
       Hash: 7ab0e790220bdca831fdd886b339039d
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -558,4 +560,4 @@ ScriptsOnlyBuild:
   platform: 13
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: C:/Users/madis/OneDrive/Desktop/UnityMiniGame-MP/UnityMiniGame-MP/Builds/StrangerThingsQuiz-MP-AndroidBuild.apk
+  playerPath: C:/Work/StrangerThingsQuiz-Minigame-master/Builds/StrangerThingsQuiz-MP-AndroidBuild.apk

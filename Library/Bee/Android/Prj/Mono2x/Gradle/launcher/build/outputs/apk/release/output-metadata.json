@@ -4,7 +4,7 @@
     "type": "APK",
     "kind": "Directory"
   },
-  "applicationId": "com.DefaultCompany.UnityMiniGameMP",
+  "applicationId": "com.MadisonPalmer.UnityMiniGameMP",
   "variantName": "release",
   "elements": [
     {
